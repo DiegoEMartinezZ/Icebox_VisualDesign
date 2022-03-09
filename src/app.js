@@ -5,7 +5,7 @@ const cors = require('cors');
 const methodOverride = require('method-override');
 const session = require('express-session');
 
-app.use(express.static(path.resolve(__dirname, '../public')));
+app.use(express.static(path.resolve(__dirname, '../Public')));
 
 const indexRoute = require('./routes/indexRoute');
 const user = require('./routes/user');
