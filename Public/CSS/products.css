@@ -27,15 +27,16 @@ section div.product-text {
   text-align: center;
 }
 
-section div h1.products-title {
-  font-size: 10rem;
+section div p.products-title {
+  font-size: 20rem;
+  font-weight: bolder;
   margin: 3rem;
 }
 section div h2.products-description {
   font-size: 3rem;
   font-weight: lighter;
   margin: 3rem;
-  padding: 0 5%;
+  padding: 0 25%;
 }
 
 section div h2.products-price {
@@ -55,6 +56,7 @@ section div h2.products-notes {
 
 section div h2 a {
   color: #000;
+  font-size: 4rem;
 }
 
 section div h2.products-notes:hover {
@@ -165,11 +167,11 @@ section div h2.products-notes:hover {
   }
 
   section div h1.products-title {
-    font-size: 5.2rem;
+    font-size: 4.5rem;
     margin: 2rem;
   }
   section div h2.products-description {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   section div h2.products-price {
     font-size: 3rem;
