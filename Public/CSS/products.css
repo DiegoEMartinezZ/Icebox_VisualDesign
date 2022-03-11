@@ -17,6 +17,7 @@ section div.arrow_left {
   transform: translate(-50%, -50%);
 }
 
+
 section div.product-text {
   position: absolute;
   top: 30%;
@@ -106,6 +107,7 @@ section div h2.products-notes:hover {
     position: absolute;
     top: 58%;
   }
+ 
 
   section div h1.products-title {
     font-size: 7rem;
@@ -124,6 +126,11 @@ section div h2.products-notes:hover {
 }
 
 @media (max-width: 850px) {
+ 
+  div.big-container{
+    margin-top: 25rem;
+  }
+
   section div.product-text {
     top: 50%;
     height: 40%;
@@ -145,3 +152,32 @@ section div h2.products-notes:hover {
     width: 25%;
   }
 }
+
+@media (max-width: 640px) {
+  
+  div.big-container{
+    margin-top: 25rem;
+  }
+ 
+  section div.product-text {
+    top: 50%;
+    height:auto;
+  }
+
+  section div h1.products-title {
+    font-size: 5.2rem;
+    margin: 2rem;
+  }
+  section div h2.products-description {
+    font-size: 2rem;
+  }
+  section div h2.products-price {
+    font-size: 3rem;
+  }
+
+  section div h2.products-notes {
+  font-size: 2.5rem;
+  width: 30%;
+  }
+}
+

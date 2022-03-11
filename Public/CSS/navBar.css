@@ -295,8 +295,17 @@ header img.logo {
   }
   header div.navbar-btns {
     display: flex;
-    flex-wrap: nowrap;
-    margin: auto;
+    flex-wrap: nowrap;   
+    margin:auto;
     margin-top: 10rem;
+    transform: translateX(-11%);
   }
 }
+
+@media (max-width: 640px) {
+  header img.logo {
+    transform: translateX(-45%);
+  }
+}
+
+
