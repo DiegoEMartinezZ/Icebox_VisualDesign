@@ -1,0 +1,105 @@
+section.formContainer {
+  background-color: #000;
+  padding: 5rem;
+}
+
+form {
+  text-align: center;
+  margin: auto;
+}
+
+div.formTitle {
+  font-size: 6rem;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  margin: 4rem;
+}
+
+form input.nameform,
+form input.emailform {
+  height: 6rem;
+  margin: 10px;
+  background-color: #fff;
+  text-transform: Capitalize;
+  width: 30%;
+  cursor: pointer;
+}
+
+form input.emailform {
+  text-transform: none;
+}
+
+form textarea.FAQform {
+  border-radius: 3rem;
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+  width: 30%;
+}
+
+form section.FAQ-Buttons {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+form button.FAQSend,
+form button.FAQDelete {
+  margin: 20px;
+  color: #000;
+  background-color: #30fde8;
+  width: 5%;
+  font-weight: lighter;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+form button.FAQSend:hover {
+  cursor: pointer;
+  background-color: #fbff00;
+}
+
+form button.FAQDelete:hover {
+  cursor: pointer;
+  background-color: #ca175c;
+  color: #fff;
+}
+
+@media (max-width: 1279px) {
+  form input.nameform,
+  form input.emailform,
+  form textarea.FAQform {
+    width: 40%;
+  }
+  form button.FAQSend,
+  form button.FAQDelete {
+    width: 15%;
+  }
+}
+
+@media (max-width: 850px) {
+  form button.FAQSend,
+  form button.FAQDelete {
+    width: 15%;
+  }
+}
+
+@media (max-width: 640px) {
+  form input.nameform,
+  form input.emailform,
+  form textarea.FAQform {
+    width: 50%;
+  }
+}
+
+@media (max-width: 586px) {
+  form input.nameform,
+  form input.emailform,
+  form textarea.FAQform {
+    width: 60%;
+  }
+}
