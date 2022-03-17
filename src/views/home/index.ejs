@@ -1,55 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ICEBOX | HOME </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICEBOX | HOME</title>
     <%-include ('../partials/src') %>
-</head>
+  </head>
 
-<body>
+  <body>
     <%-include ('../partials/navBar') %>
-    
-   
-        <div class='big-container'>
 
-            <section class='products-container'>
-                <img src="/Images/halo.jpg" alt="">
-                <div class='product-text'>
-                    <p class='products-title'>HALO INFINITE</p>
-                    <p class='products-description'>La legendaria saga Halo regresa con la campaña de Master Chief más
-                        amplia hasta la fecha y una
-                        experiencia multijugador gratuita revolucionaria.</p>
-                    <p class='products-price'>Disponible en Xbox Game Pass</p>                    
-                </div>
-            </section>
-
-            <section class='products-container'>
-                <img src="/Images/ps5.jpg" alt="">
-                <div class='product-text'>
-                    <p class='products-title'>PLAY STATION 5</p>
-                    <p class='products-description'>Observa más de cerca la interfaz de usuario de la consola PS5 y
-                        descubre algunas de las nuevas maneras de jugar.</p> 
-                        <p class='products-price'>Disponible</p>                    
-                </div>
-            </section>
-            <%-include ('../partials/form') %>
-       
-           
-
+    <div class="big-container">
+      <section class="products-container">
+        <img src="/Images/halo.jpg" alt="" />
+        <div class="product-text">
+          <p class="products-title">HALO INFINITE</p>
+          <p class="products-description">
+            La legendaria saga Halo regresa con la campaña de Master Chief más
+            amplia hasta la fecha y una experiencia multijugador gratuita
+            revolucionaria.
+          </p>
+          <p class="products-price">Disponible en Xbox Game Pass</p>
         </div>
+      </section>
 
+      <section class="products-container">
+        <img src="/Images/ps5.jpg" alt="" />
+        <div class="product-text">
+          <p class="products-title">PLAY STATION 5</p>
+          <p class="products-description">
+            Observa más de cerca la interfaz de usuario de la consola PS5 y
+            descubre algunas de las nuevas maneras de jugar.
+          </p>
+          <p class="products-price">Disponible</p>
+        </div>
+      </section>
+      <%-include ('../partials/form') %>
+    </div>
 
-
-
-
-
-        <%-include ('../partials/footer') %>
-
-</body>
-<script src="/js/script.js">
-</script>
-
+    <%-include ('../partials/footer') %>
+  </body>
+  <script src="/js/script.js"></script>
 </html>

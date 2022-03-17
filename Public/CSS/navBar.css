@@ -5,7 +5,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   transition: all 0.2s linear;
 }
 
@@ -33,6 +33,7 @@ header.header {
   background-color: #000;
   height: 85px;
   box-shadow: -1px 11px 8px 4px rgba(0, 0, 0, 0.66);
+  border-bottom: #30fde8 solid 0.5rem;
 }
 
 header nav.navbar {
@@ -274,7 +275,6 @@ header img.logo {
     width: 35%;
     padding: 1rem 3%;
   }
-
 }
 @media (max-width: 850px) {
   header.header {
@@ -305,8 +305,8 @@ header img.logo {
   }
   header div.navbar-btns {
     display: flex;
-    flex-wrap: nowrap;   
-    margin:auto;
+    flex-wrap: nowrap;
+    margin: auto;
     margin-top: 10rem;
     transform: translateX(-11%);
   }
@@ -326,5 +326,3 @@ header img.logo {
     padding: 1rem 3%;
   }
 }
-
-
