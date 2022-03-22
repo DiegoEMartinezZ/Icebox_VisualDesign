@@ -92,6 +92,6 @@ form button.FAQDelete:hover {
   form input.nameform,
   form input.emailform,
   form textarea.FAQform {
-    width: 50%;
+    width: 75%;
   }
 }

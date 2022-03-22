@@ -35,10 +35,26 @@ footer section nav.socialMedia a {
   padding: 1rem;
 }
 
-footer section nav.footerNav a:hover {
+footer section nav.footerNav a:hover,
+footer section nav.socialMedia a:hover {
   color: #30fde8;
 }
 
 footer section div.footerTitle {
   color: #fff;
+}
+
+footer section nav.socialMedia {
+  font-size: 5rem;
+}
+
+footer section nav.socialMedia a {
+  margin: 0 5%;
+  padding: 2%;
+}
+
+@media (max-width: 640px) {
+  footer section nav.socialMedia {
+    font-size: 4rem;
+  }
 }
