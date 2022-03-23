@@ -41,7 +41,7 @@ header nav.navbar {
 }
 
 header nav.shopping-navbar {
-  width: 35%;
+  width: 40%;
   height: 100vh;
   padding: 0 2rem;
   display: flex;
@@ -50,6 +50,7 @@ header nav.shopping-navbar {
   background-color: #30fde8;
   position: absolute;
   top: 100%;
+  text-align: left;
   right: 0;
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
@@ -80,17 +81,19 @@ header nav img {
 header nav div.shopping-resume {
   display: flex;
   flex-direction: row;
+  left: 20%;
+  top: 5%;
   padding: 2rem;
   margin: 3% 1rem;
+  width: 60%;
   background-color: #fff;
   border-radius: 3rem;
   position: relative;
 }
 
 header nav div.product-shopping-description {
-  width: 60%;
-  text-align: justify;
   margin: 1rem;
+  text-align: left;
 }
 
 header nav div.shopping-resume:hover {
@@ -105,6 +108,7 @@ header nav div.product-title {
 
 header nav div.product-shopping-description {
   font-size: 2rem;
+  width: 60%;
 }
 
 header nav div.price-shopping {
@@ -118,7 +122,7 @@ header nav div button {
   background-color: #000;
   color: #fff;
   border-radius: 2rem;
-  margin: 3% 0;
+  margin: 2%;
 }
 
 header button.buy-shopping:hover {
@@ -286,7 +290,7 @@ header img.logo {
     left: 95%;
   }
   header nav.shopping-navbar {
-    width: 80%;
+    width: 100%;
   }
 
   div.big-container {
@@ -310,6 +314,10 @@ header img.logo {
     margin-top: 10rem;
     transform: translateX(-11%);
   }
+  header nav div.shopping-resume {
+    width: 50%;
+    left: 25%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -324,5 +332,9 @@ header img.logo {
   header nav img {
     width: 35%;
     padding: 1rem 3%;
+  }
+  header nav div.shopping-resume {
+    width: 70%;
+    left: 15%;
   }
 }

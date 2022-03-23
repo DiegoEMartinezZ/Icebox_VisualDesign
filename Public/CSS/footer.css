@@ -29,14 +29,21 @@ footer section nav.socialMedia {
   margin: 3%;
 }
 
-footer section nav.footerNav a,
 footer section nav.socialMedia a {
+  color: #30fde8;
+  padding: 1rem;
+}
+
+footer section nav.socialMedia a:hover {
+  color: #fff;
+}
+
+footer section nav.footerNav a {
   color: #fff;
   padding: 1rem;
 }
 
-footer section nav.footerNav a:hover,
-footer section nav.socialMedia a:hover {
+footer section nav.footerNav a:hover {
   color: #30fde8;
 }
 
@@ -56,5 +63,10 @@ footer section nav.socialMedia a {
 @media (max-width: 640px) {
   footer section nav.socialMedia {
     font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  footer section nav.socialMedia a {
+    margin: 15% 0;
   }
 }
