@@ -15,7 +15,7 @@ section div.product-text {
   left: 50%;
   transform: translate(-50%, -95%);
   color: #fff;
-  text-align: center; 
+  text-align: center;
 }
 
 section div p.products-title {
@@ -34,9 +34,19 @@ section div p.products-price {
   font-size: 8rem;
   color: #fff;
   font-weight: bolder;
+  width: 60%;
+  margin: auto;
 }
 
-
+section div p.products-price:hover {
+  color: #000;
+  background-color: #30fde8;
+  border-radius: 4rem;
+  padding: 3rem;
+  width: 60%;
+  margin: auto;
+  cursor: pointer;
+}
 
 @media (max-width: 1279px) {
   section div.product-text {
@@ -64,24 +74,23 @@ section div p.products-price {
 
   section div p.products-price {
     font-size: 6rem;
-  } 
+  }
 }
 
 @media (min-width: 851px) {
   section div.product-text {
     position: absolute;
     top: 55%;
-  } 
+  }
 }
 
 @media (max-width: 850px) {
- 
-  div.big-container{
+  div.big-container {
     margin-top: 25rem;
   }
 
   section div.product-text {
-    top: 55%;    
+    top: 55%;
   }
 
   section div p.products-title {
@@ -99,14 +108,13 @@ section div p.products-price {
 }
 
 @media (max-width: 640px) {
-  
-  div.big-container{
+  div.big-container {
     margin-top: 25rem;
   }
- 
+
   section div.product-text {
-  top: 55%;
-  margin:auto;
+    top: 55%;
+    margin: auto;
   }
 
   section div p.products-title {
@@ -115,22 +123,21 @@ section div p.products-price {
     width: 100%;
   }
   section div p.products-description {
-    font-size: 2.5rem;    
-    width:100%;
+    font-size: 2.5rem;
+    width: 100%;
   }
   section div p.products-price {
-    margin:auto;
-    font-size: 2.5rem;   
-    width:100%;
+    margin: auto;
+    font-size: 2.5rem;
+    width: 100%;
   }
 }
 
-@media (max-width:586px){
-  section img {   
-    height: 50vh;   
+@media (max-width: 586px) {
+  section img {
+    height: 50vh;
   }
   section div.product-text {
-    top:66%;
+    top: 66%;
   }
 }
-
