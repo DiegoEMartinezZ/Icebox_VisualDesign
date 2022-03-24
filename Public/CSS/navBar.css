@@ -74,26 +74,21 @@ header nav div.cancel:hover {
 }
 
 header nav img {
-  width: 25%;
+  width: 40%;
   padding: 1rem 3%;
 }
 
 header nav div.shopping-resume {
   display: flex;
   flex-direction: row;
-  left: 20%;
+  left: 12%;
   top: 5%;
-  padding: 2rem;
+  padding: 1rem;
   margin: 3% 1rem;
-  width: 60%;
+  width: 80%;
   background-color: #fff;
   border-radius: 3rem;
   position: relative;
-}
-
-header nav div.product-shopping-description {
-  margin: 1rem;
-  text-align: left;
 }
 
 header nav div.shopping-resume:hover {
@@ -177,6 +172,12 @@ header img.logo {
   width: 90px;
   padding: -1rem;
   height: auto;
+}
+
+div.buttons-shopping {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 @media (min-width: 1280px) {
@@ -314,10 +315,6 @@ header img.logo {
     margin-top: 10rem;
     transform: translateX(-11%);
   }
-  header nav div.shopping-resume {
-    width: 50%;
-    left: 25%;
-  }
 }
 
 @media (max-width: 640px) {
@@ -325,16 +322,11 @@ header img.logo {
     transform: translateX(-45%);
   }
 
-  header nav.shopping-navbar {
-    width: 100%;
-  }
-
   header nav img {
-    width: 35%;
     padding: 1rem 3%;
   }
   header nav div.shopping-resume {
-    width: 70%;
-    left: 15%;
+    width: 80%;
+    left: 10%;
   }
 }
