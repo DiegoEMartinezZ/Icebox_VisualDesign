@@ -10,11 +10,6 @@ section.list-users-container {
   text-decoration: none;
 }
 
-section div.sad-face {
-  color: #30fde8;
-  font-size: 50rem;
-}
-
 section div.lengthUserList {
   display: inline-block;
 }

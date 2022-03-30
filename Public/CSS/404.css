@@ -1,0 +1,15 @@
+section.error-container {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  color: #30fde8;
+  font-size: 9rem;
+  padding: 5rem;
+  background-color: #000;
+  text-align: center;
+  border-radius: 4rem;
+}
+
+section div.fa {
+  font-size: 56rem;
+}

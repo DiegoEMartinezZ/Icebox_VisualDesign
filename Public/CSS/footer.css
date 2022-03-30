@@ -1,4 +1,11 @@
+footer.footer {
+  height: auto;
+  position: relative;
+}
+
 footer section.footerContainer {
+  position: absolute;
+  bottom: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,8 +14,6 @@ footer section.footerContainer {
   font-size: 8rem;
   text-align: center;
   padding: 3%;
-  position: absolute;
-  bottom: 1;
   width: 100%;
   border-top: #30fde8 solid 0.5rem;
 }
@@ -58,6 +63,23 @@ footer section nav.socialMedia {
 footer section nav.socialMedia a {
   margin: 0 5%;
   padding: 2%;
+}
+
+@media (min-width: 1280px) {
+  footer section.footerContainer {
+    height: 280px;
+  }
+
+@media (max-width: 1279px) {
+  footer section.footerContainer {
+    height: 250px;
+  }
+}
+
+@media (max-width: 850px) {
+  footer section.footerContainer {
+    height: 250px;
+  }
 }
 
 @media (max-width: 640px) {
