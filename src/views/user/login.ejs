@@ -10,33 +10,40 @@
 
   <body>
     <%-include ('../partials/navBar') %>
+    <section class="loginRegister-container">
+      <img src="/Images/background.jpg" class="loginRegisterImg" alt="" />
+      <form action="/login" method="POST" class="user-form">
+        <div class="form-container">
+          <div class="form-title">Bienvenido</div>
 
-    <form action="/login" method="POST" class="user-form">
-      <div class="form-container">
-        <div class="form-title">Bienvenido</div>
+          <label for="email"><i class="fas fa-envelope"></i> Email </label>
+          <input
+            type="text"
+            name="email"
+            placeholder="micorreo@direccion.com"
+          />
+          <% if (locals.errors && errors.email){ %>
+          <div class="text-danger"><%= errors.email.msg %></div>
+          <% } %>
 
-        <label for="email"><i class="fas fa-envelope"></i> Email </label>
-        <input type="text" name="email" placeholder="micorreo@direccion.com" />
-        <% if (locals.errors && errors.email){ %>
-        <div class="text-danger"><%= errors.email.msg %></div>
-        <% } %>
+          <label for="password"><i class="fas fa-key"></i> Contraseña </label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Escribe tu contraseña"
+          />
+          <% if (locals.errors && errors.password){ %>
+          <div class="text-danger"><%= errors.password.msg %></div>
+          <% } %>
 
-        <label for="password"><i class="fas fa-key"></i> Contraseña </label>
-        <input
-          type="password"
-          name="password"
-          placeholder="Escribe tu contraseña"
-        />
-        <% if (locals.errors && errors.password){ %>
-        <div class="text-danger"><%= errors.password.msg %></div>
-        <% } %>
-
-        <div class="buttons">
-          <button type="submit" class="register-btn">Iniciar sesión</button>
-          <button type="reset" class="reset-btn">Borrar todo</button>
+          <div class="buttons">
+            <button type="submit" class="register-btn">Iniciar sesión</button>
+            <button type="reset" class="reset-btn">Borrar todo</button>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </section>
+    <%-include ('../partials/footer') %>
   </body>
   <script src="/js/script.js"></script>
 </html>
