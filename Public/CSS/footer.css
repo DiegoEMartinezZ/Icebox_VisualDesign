@@ -1,6 +1,7 @@
 footer.footer {
   height: auto;
   position: relative;
+  margin-top: 55rem;
 }
 
 footer section.footerContainer {
@@ -69,16 +70,17 @@ footer section nav.socialMedia a {
   footer section.footerContainer {
     height: 280px;
   }
+}
 
 @media (max-width: 1279px) {
   footer section.footerContainer {
-    height: 250px;
+    height: 275px;
   }
 }
 
 @media (max-width: 850px) {
   footer section.footerContainer {
-    height: 250px;
+    height: 273px;
   }
 }
 
