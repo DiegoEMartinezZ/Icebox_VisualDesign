@@ -9,7 +9,7 @@ section div.error-container {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 20%;
+  top: 35%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -23,6 +23,7 @@ section div.error-title {
 section div p.error-text {
   color: #fff;
   font-size: 3rem;
+  margin: 2rem;
 }
 
 section div div i.fa {
@@ -37,6 +38,7 @@ section div i.fa {
 section div p.back-button a {
   color: #000;
   background-color: #30fde8;
+  font-size: 3rem;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 3rem;
@@ -50,4 +52,22 @@ section div p.back-button a:hover {
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 3rem;
+}
+
+@media (max-width: 1279px) {
+  section div.error-container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 850px) {
+  section div.error-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  section div.error-container {
+    width: 50%;
+  }
 }
