@@ -59,6 +59,25 @@ header nav.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+header div input.search-bar {
+  border-radius: 0%;
+  width: 100%;
+  color: #000;
+  background-color: #30fde8;
+  position: absolute;
+  display: block;
+  z-index: 2;
+  top: 100%;
+  right: 0;
+  text-align: center;
+  height: 7rem;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+header div input.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 header nav div.cancel {
   position: absolute;
   display: block;
