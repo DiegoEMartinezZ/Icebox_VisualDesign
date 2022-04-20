@@ -1,7 +1,8 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const productController = require('../controllers/productController');
+const productController = require("../controllers/productController");
 
-router.get('/productDetail', productController.productDetail);
+//Detalle de producto
+router.get("/haloInfinite", productController.haloInfinite);
 
 module.exports = router;

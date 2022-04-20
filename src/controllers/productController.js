@@ -1,5 +1,5 @@
 module.exports = {
-  productDetail: (req, res) => {
-    res.render('./product/productDetail');
+  haloInfinite: (req, res) => {
+    res.render("./product/haloInfinite");
   },
 };
