@@ -4,9 +4,13 @@ section img {
   width: 100%;
 }
 
+section.productDetail-container {
+  margin: 7%;
+}
+
 section div.grid-productDetail-container {
   color: #fff;
-  height: 50%;
+  height: 20%;
   text-align: center;
   display: grid;
   grid-template-columns: 50% 50%;
