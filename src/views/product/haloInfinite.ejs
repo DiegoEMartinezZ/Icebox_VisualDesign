@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ICEBOX | Halo Infinite</title>
-    <%-include ('../partials/src') %>
-  </head>
 
-  <body>
-    <%-include ('../partials/navBar') %>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICEBOX | Halo Infinite</title>
+  <%-include ('../partials/src') %>
+</head>
+
+<body>
+  <%-include ('../partials/navBar') %>
     <section class="productDetail-container">
       <div class="grid-productDetail-container">
         <div class="productDetail-image">
@@ -20,15 +21,17 @@
           <h2 class="review-title">HALO INFINITE</h2>
           <h2 class="review-creator">MICROSOFT</h2>
           <h2 class="review-price">$260.000</h2>
+          <h2 class="review-price-02">$220.000</h2>
 
           <div class="stars-product">
-            <h2 class="rating-title">Rating de producto</h2>
+            <h2 class="rating-title">Opiniones de clientes</h2>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="far fa-star"></i>
           </div>
+
 
           <h1 class="review-description">
             ¡Comienza la siguiente época de Halo! Para celebrar el 20.º
@@ -38,13 +41,103 @@
             "Heroes of Reach", y no te pierdas los próximos eventos en el juego
             por tiempo limitado y premios exclusivos.
           </h1>
+
           <h2 class="review-shoppingCart">Agregar al carrito</h2>
           <h2 class="review-buy">Comprar ahora</h2>
+
+          <h1 class="title-best-comments">Comentarios destacados</h2>
+
+            <section class="best-comments-container">
+              <div class="image-user-container">
+                <img src="/Images/profileImages/1643385079978 _img.jpg" alt="" class="user-image-best-comments">
+              </div>
+              <div class="user-container">
+                <h2 class="user-best-comments"> Clark Kent <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </h2>
+
+                <p class="best-comments"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis officia
+                  a,
+                  repellat
+                  reprehenderit, maxime ex libero perferendis cupiditate omnis alias ipsa ducimus excepturi distinctio
+                  odit
+                </p>
+              </div>
+            </section>
+
+            <section class="worst-comments-container">
+              <div class="image-user-container">
+                <img src="/Images/profileImages/1643589293996 _img.jpg" alt="" class="user-image-best-comments">
+              </div>
+              <div class="user-container">
+                <h2 class="user-best-comments"> Diana Prince <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </h2>
+
+                <p class="best-comments"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis officia
+                  a,
+                  repellat
+                  reprehenderit, maxime ex libero perferendis cupiditate omnis alias ipsa ducimus excepturi distinctio
+                  odit
+                </p>
+              </div>
+            </section>
+
+            <section class="best-comments-container">
+              <div class="image-user-container">
+                <img src="/Images/profileImages/1643665079063 _img.jpg" alt="" class="user-image-best-comments">
+              </div>
+              <div class="user-container">
+                <h2 class="user-best-comments"> Bruce Wayne <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </h2>
+
+                <p class="best-comments"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis officia
+                  a,
+                  repellat
+                  reprehenderit, maxime ex libero perferendis cupiditate omnis alias ipsa ducimus excepturi distinctio
+                  odit
+                </p>
+              </div>
+            </section>
+
+            <section class="best-comments-container">
+              <div class="image-user-container">
+                <img src="/Images/profileImages/1643672734326 _img.jpg" alt="" class="user-image-best-comments">
+              </div>
+              <div class="user-container">
+                <h2 class="user-best-comments"> Barry Allen <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </h2>
+
+                <p class="best-comments"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis officia
+                  a,
+                  repellat
+                  reprehenderit, maxime ex libero perferendis cupiditate omnis alias ipsa ducimus excepturi distinctio
+                  odit
+                </p>
+              </div>
+            </section>
+
+
         </div>
       </div>
     </section>
 
     <%-include ('../partials/footer') %>
-  </body>
-  <script src="/js/script.js"></script>
+</body>
+<script src="/js/script.js"></script>
+
 </html>
