@@ -10,14 +10,14 @@
   /></a>
 
   <!-- Search bar -->
-  <div>
+  <div class="search-navbar-container">
     <form action="">
       <label for=""></label>
       <input type="text" placeholder="Buscar..." class="search-bar" />
     </form>
   </div>
 
-  <div class="navbar-btns">
+  <nav class="navbar-btns">
     <a href="#">
       <div id="menu-btn" class="fas fa-bars icons"></div>
     </a>
@@ -33,54 +33,52 @@
     <a href="#">
       <div id="search-btn" class="fas fa-search icons"></div>
     </a>
-  </div>
+  </nav>
 
   <!-- //Shopping cart -->
-  <nav class="shopping-navbar">
-    <div class="shopping-resume">
+  <section class="shopping-navbar">
+    <picture class="shopping-resume">
       <img src="/Images/halo02.png" alt="" />
-
-      <div class="product-shopping-container">
-        <div class="product-title">Halo Infinite</div>
+      <article class="product-shopping-container">
+        <strong class="product-title">Halo Infinite</strong>
         <div class="cancel">
           <i class="fas fa-times"></i>
         </div>
-        <div class="product-shopping-description">
+        <p class="product-shopping-description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
           tempore, delectus blanditiis molestias cupiditate similique ex,
           excepturi odio sint provident obcaecati eum illum nesciunt distinctio
           ut. Non sunt nisi animi!
-        </div>
-        <div class="price-shopping">$20usd | Cantidad: 2</div>
+        </p>
+        <small class="price-shopping">$20usd | Cantidad: 2</small>
         <div class="buttons-shopping">
           <button type="submit" class="buy-shopping">Agregar otro</button>
           <button type="reset" class="erase-shopping">Eliminar producto</button>
         </div>
-      </div>
-    </div>
+      </article>
+    </picture>
 
-    <div class="shopping-resume">
-      <img src="/Images/xbox.jpg" alt="" />
-
-      <div class="product-shopping-container">
-        <div class="product-title">Xbox Series X</div>
+    <picture class="shopping-resume">
+      <img src="/Images/halo02.png" alt="" />
+      <article class="product-shopping-container">
+        <strong class="product-title">Halo Infinite</strong>
         <div class="cancel">
           <i class="fas fa-times"></i>
         </div>
-        <div class="product-shopping-description">
+        <p class="product-shopping-description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
           tempore, delectus blanditiis molestias cupiditate similique ex,
           excepturi odio sint provident obcaecati eum illum nesciunt distinctio
           ut. Non sunt nisi animi!
-        </div>
-        <div class="price-shopping">$600usd | Cantidad: 1</div>
+        </p>
+        <small class="price-shopping">$20usd | Cantidad: 2</small>
         <div class="buttons-shopping">
           <button type="submit" class="buy-shopping">Agregar otro</button>
           <button type="reset" class="erase-shopping">Eliminar producto</button>
         </div>
-      </div>
-    </div>
-  </nav>
+      </article>
+    </picture>
+  </section>
 </header>
 
 <script src="/js/script.js"></script>

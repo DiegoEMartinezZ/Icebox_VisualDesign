@@ -1,4 +1,4 @@
-section div.error-container {
+section div.text-error-container {
   background-color: #000;
   text-align: center;
   width: 25%;
@@ -14,7 +14,7 @@ section div.error-container {
   transform: translateX(-50%);
 }
 
-section div.error-title {
+section strong.error-title {
   font-size: 5rem;
   color: #30fde8;
   font-weight: bolder;
@@ -35,17 +35,18 @@ section div i.fa {
   margin: 5rem;
 }
 
-section div p.back-button a {
+section div button.back-button {
   color: #000;
   background-color: #30fde8;
   font-size: 3rem;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 3rem;
+  width: 60%;
   text-decoration: none;
 }
 
-section div p.back-button a:hover {
+section div button.back-button:hover {
   cursor: pointer;
   color: #000;
   background-color: #fbff00;
@@ -55,19 +56,19 @@ section div p.back-button a:hover {
 }
 
 @media (max-width: 1279px) {
-  section div.error-container {
+  section div.text-error-container {
     width: 40%;
   }
 }
 
 @media (max-width: 850px) {
-  section div.error-container {
+  section div.text-error-container {
     width: 50%;
   }
 }
 
 @media (max-width: 650px) {
-  section div.error-container {
+  section div.text-error-container {
     width: 50%;
   }
 }

@@ -40,12 +40,12 @@ header nav.navbar {
   display: none;
 }
 
-header nav.shopping-navbar {
+header section.shopping-navbar {
   width: 40%;
   height: 100vh;
   padding: 0 2rem;
   display: flex;
-  z-index: 2;
+  z-index: 1;
   flex-direction: column;
   background-color: #30fde8;
   position: absolute;
@@ -55,7 +55,7 @@ header nav.shopping-navbar {
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
-header nav.active {
+header section.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
@@ -78,7 +78,7 @@ header div input.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-header nav div.cancel {
+header section div.cancel {
   position: absolute;
   display: block;
   top: 2.5%;
@@ -87,52 +87,53 @@ header nav div.cancel {
   color: #ca175c;
 }
 
-header nav div.cancel:hover {
+header section div.cancel:hover {
   color: #30fde8;
   cursor: pointer;
 }
 
-header nav img {
+header section img {
   width: 40%;
   padding: 1rem 3%;
 }
 
-header nav div.shopping-resume {
+header section picture.shopping-resume {
   display: flex;
   flex-direction: row;
-  left: 12%;
+  left: 20%;
   top: 5%;
-  padding: 1rem;
-  margin: 3% 1rem;
-  width: 80%;
+  padding: 3rem;
+  margin: 1% 1rem;
+  width: 60%;
   background-color: #fff;
   border-radius: 3rem;
   position: relative;
 }
 
-header nav div.shopping-resume:hover {
-  background-color: #fbff00;
-}
-
-header nav div.product-title {
-  font-size: 3.2rem;
+header section strong.product-title {
+  font-size: 4rem;
   color: #000;
   font-weight: bolder;
+  margin: 3% 0;
 }
 
-header nav div.product-shopping-description {
+header section p.product-shopping-description {
   font-size: 2rem;
-  width: 60%;
+  width: 80%;
+  margin: 2% 0;
 }
 
-header nav div.price-shopping {
+header section small.price-shopping {
   font-size: 3rem;
   font-weight: bolder;
   padding: 0.5rem 0;
 }
 
-header nav div button {
+header section div button {
   padding: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   background-color: #000;
   color: #fff;
   border-radius: 2rem;
@@ -154,7 +155,7 @@ header button.erase-shopping:hover {
   transform: rotate(90deg);
 }
 
-header div.navbar-btns {
+header nav.navbar-btns {
   display: flex;
 }
 
@@ -204,7 +205,7 @@ div.buttons-shopping {
     display: flex;
   }
 
-  header nav.shopping-navbar {
+  header section.shopping-navbar {
     display: flex;
   }
 
@@ -243,7 +244,7 @@ div.buttons-shopping {
     top: 2.5%;
     left: 93%;
   }
-  header nav.shopping-navbar {
+  header section.shopping-navbar {
     width: 50%;
   }
 
@@ -291,11 +292,11 @@ div.buttons-shopping {
     color: #fbff00;
   }
 
-  header nav.shopping-navbar {
+  header section.shopping-navbar {
     width: 60%;
   }
 
-  header nav img {
+  header picture img {
     width: 35%;
     padding: 1rem 3%;
   }
@@ -309,7 +310,7 @@ div.buttons-shopping {
     top: 2%;
     left: 95%;
   }
-  header nav.shopping-navbar {
+  header section.shopping-navbar {
     width: 100%;
   }
 
@@ -327,7 +328,7 @@ div.buttons-shopping {
     height: auto;
     margin: auto;
   }
-  header div.navbar-btns {
+  header nav.navbar-btns {
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
@@ -341,10 +342,10 @@ div.buttons-shopping {
     transform: translateX(-45%);
   }
 
-  header nav img {
+  header picture img {
     padding: 1rem 3%;
   }
-  header nav div.shopping-resume {
+  header section picture.shopping-resume {
     width: 80%;
     left: 10%;
   }
