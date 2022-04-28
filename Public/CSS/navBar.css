@@ -5,7 +5,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   transition: all 0.2s linear;
 }
 
@@ -97,7 +97,7 @@ header section img {
   padding: 1rem 3%;
 }
 
-header section picture.shopping-resume {
+header section div.shopping-resume {
   display: flex;
   flex-direction: row;
   left: 20%;
@@ -252,7 +252,7 @@ div.buttons-shopping {
     display: none;
     z-index: 2;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 3rem;
     display: flex;
     flex-direction: column;
     background-color: #30fde8;
@@ -296,7 +296,7 @@ div.buttons-shopping {
     width: 60%;
   }
 
-  header picture img {
+  header div img {
     width: 35%;
     padding: 1rem 3%;
   }
@@ -322,7 +322,7 @@ div.buttons-shopping {
     position: absolute;
     top: 1rem;
     left: 50%;
-    transform: translateX(-38%);
+    transform: translateX(-50%);
     width: 90px;
     padding: -1rem;
     height: auto;
@@ -332,8 +332,8 @@ div.buttons-shopping {
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
-    margin-top: 10rem;
-    transform: translateX(-11%);
+    margin-top: 12rem;
+    transform: translateX(-21%);
   }
 }
 
@@ -342,10 +342,10 @@ div.buttons-shopping {
     transform: translateX(-45%);
   }
 
-  header picture img {
+  header div img {
     padding: 1rem 3%;
   }
-  header section picture.shopping-resume {
+  header section div.shopping-resume {
     width: 80%;
     left: 10%;
   }

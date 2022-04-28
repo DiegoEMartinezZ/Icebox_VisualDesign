@@ -30,16 +30,11 @@ section small.review-platforms {
 
 section div.stars-product {
   font-size: 4rem;
-  color: #30fde8;
+  color: #fbff00;
   padding: 2rem;
   border-radius: 3rem;
   margin: 2% auto;
   width: 50%;
-}
-
-section div.stars-product:hover {
-  cursor: pointer;
-  color: #fbff00;
 }
 
 section div h2.rating-title {
